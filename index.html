@@ -1,0 +1,426 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI/ML Engineer portfolio showcasing projects in Generative AI, deep learning, and Python.">
+  <title>Latha Pichai | AI/ML Engineer Portfolio</title>
+
+  <style>
+    :root {
+      --bg: #0b1120;
+      --panel: #151f32;
+      --text: #edf3ff;
+      --muted: #b2bfd4;
+      --accent: #70e1d1;
+      --border: #2a3850;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(1050px, 90%);
+      margin: auto;
+    }
+
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .brand {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 16px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      padding: 85px 0 65px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      font-size: clamp(2.3rem, 6vw, 4.3rem);
+      line-height: 1.15;
+      margin: 14px 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    .subtitle {
+      color: var(--accent);
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .intro {
+      color: var(--muted);
+      max-width: 680px;
+      font-size: 1.08rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: var(--accent);
+      color: #081522;
+    }
+
+    section {
+      padding: 55px 0;
+    }
+
+    .section-intro {
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 23px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      color: var(--muted);
+    }
+
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 15px 0;
+    }
+
+    .tag {
+      border: 1px solid var(--border);
+      padding: 4px 9px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      color: var(--accent);
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .skill {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+
+    .badge-image {
+      display: block;
+      width: 150px;
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 25px 0;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        align-items: flex-start;
+      }
+
+      nav a {
+        margin: 0 12px 0 0;
+      }
+
+      .hero {
+        padding-top: 55px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <div class="brand">Latha Pichai</div>
+
+        <div>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#learning">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="hero container" id="about">
+      <div class="eyebrow">
+        Computer Science Engineering · Class of 2027
+      </div>
+
+      <h1>Building useful solutions with AI.</h1>
+
+      <div class="subtitle">Aspiring AI/ML Engineer</div>
+
+      <p class="intro">
+        I am a final-year Computer Science Engineering student interested
+        in Artificial Intelligence, Machine Learning, Generative AI, and
+        Python development. I enjoy building practical projects that
+        turn technical ideas into useful applications.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="#projects">
+          Explore My Projects
+        </a>
+
+        <a
+          class="btn"
+          href="https://github.com/lathapichai"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Profile
+        </a>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="container" id="skills">
+      <h2>Technical Skills</h2>
+
+      <p class="section-intro">
+        Technologies I have worked with in my projects and learning.
+      </p>
+
+      <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">Machine Learning</span>
+        <span class="skill">Deep Learning</span>
+        <span class="skill">Generative AI</span>
+        <span class="skill">RAG</span>
+        <span class="skill">FAISS</span>
+        <span class="skill">NLP</span>
+        <span class="skill">Streamlit</span>
+        <span class="skill">Gemini API</span>
+        <span class="skill">SQL / MySQL</span>
+        <span class="skill">Git &amp; GitHub</span>
+        <span class="skill">Flask</span>
+        <span class="skill">YOLO</span>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="container" id="projects">
+      <h2>Featured Projects</h2>
+
+      <p class="section-intro">
+        Selected projects demonstrating my AI and software development skills.
+      </p>
+
+      <div class="grid">
+        <!-- Project 1 -->
+        <article class="card">
+          <h3>CareerRAG AI</h3>
+
+          <p>
+            An AI-powered resume and career assistant that analyzes resume
+            and job-description skills, checks ATS criteria, and supports
+            career questions using retrieval-augmented generation.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Gemini API</span>
+            <span class="tag">RAG</span>
+            <span class="tag">FAISS</span>
+          </div>
+
+          <a
+            href="https://github.com/lathapichai/CareerRAG-AI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View source code →
+          </a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <h3>Wildlife Detection Using Deep Learning</h3>
+
+          <p>
+            A computer-vision project using a trained YOLO model to detect
+            and classify wildlife in uploaded images, with confidence
+            scores and bounding boxes.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">YOLO</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Flask</span>
+          </div>
+
+          <p>
+            Project details and source code will be added when ready.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications and Learning -->
+    <section class="container" id="learning">
+      <h2>Certifications &amp; Learning</h2>
+
+      <div class="card">
+        <h3>Getting Started with Generative AI</h3>
+
+        <p><strong>Issuing organization:</strong> IBM SkillsBuild</p>
+
+        <p><strong>Issued:</strong> October 14, 2026</p>
+
+        <img
+          class="badge-image"
+          src="https://images.credly.com/images/0889a0f2-f9c7-41db-bc68-b2e7f7dd0238/BadgeEmblem_GettingStartedWithGenerativeAI.png"
+          alt="Getting Started with Generative AI badge"
+          loading="lazy"
+        />
+
+        <a
+          href="https://images.credly.com/images/0889a0f2-f9c7-41db-bc68-b2e7f7dd0238/BadgeEmblem_GettingStartedWithGenerativeAI.png"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Badge →
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container" id="contact">
+      <h2>Let's Connect</h2>
+
+      <p class="section-intro">
+        I welcome opportunities to learn, collaborate, and grow in AI/ML
+        and software development.
+      </p>
+
+      <div class="actions">
+        <a
+          class="btn primary"
+          href="https://github.com/lathapichai"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a
+          class="btn"
+          href="https://www.linkedin.com/in/latha-"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
+
+      <p class="section-intro">
+        Update the LinkedIn link to your personal profile when you are ready.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Latha Pichai · AI/ML Engineer Portfolio
+    </div>
+  </footer>
+</body>
+</html>
+```
