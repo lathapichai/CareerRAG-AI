@@ -1,0 +1,466 @@
+AI AND MACHINE LEARNING CAREER KNOWLEDGE
+
+PYTHON
+
+Python is one of the most important programming languages for Artificial Intelligence and Machine Learning.
+
+Important Python topics include:
+Variables
+Data types
+Operators
+Conditions
+Loops
+Functions
+Lists
+Tuples
+Sets
+Dictionaries
+File handling
+Exception handling
+Modules
+Object-oriented programming
+
+Important Python libraries for AI and data science include NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch, OpenCV, and Transformers.
+
+
+NUMPY
+
+NumPy is a Python library used for numerical computing.
+
+It provides arrays and mathematical operations.
+
+NumPy is commonly used for machine learning, scientific computing, and data preprocessing.
+
+
+PANDAS
+
+Pandas is a Python library used for data manipulation and analysis.
+
+Important Pandas concepts include DataFrame, Series, reading CSV files, filtering data, handling missing values, grouping data, sorting data, and data cleaning.
+
+
+MACHINE LEARNING
+
+Machine learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every situation.
+
+The major types of machine learning are:
+
+1. Supervised learning
+2. Unsupervised learning
+3. Reinforcement learning
+
+Supervised learning uses labelled data.
+
+Common supervised learning algorithms include:
+
+Linear Regression
+Logistic Regression
+Decision Trees
+Random Forest
+Support Vector Machines
+K-Nearest Neighbors
+Naive Bayes
+Gradient Boosting
+
+Unsupervised learning works with data without labels.
+
+Common algorithms include:
+
+K-Means Clustering
+Hierarchical Clustering
+Principal Component Analysis
+
+Important machine learning concepts include:
+
+Training data
+Testing data
+Validation data
+Features
+Labels
+Overfitting
+Underfitting
+Bias
+Variance
+Cross-validation
+Feature engineering
+Normalization
+Standardization
+
+Important evaluation metrics include:
+
+Accuracy
+Precision
+Recall
+F1-score
+Confusion Matrix
+MAE
+MSE
+RMSE
+
+
+DEEP LEARNING
+
+Deep learning is a branch of machine learning that uses neural networks with multiple layers.
+
+Important deep learning concepts include:
+
+Neurons
+Weights
+Biases
+Activation functions
+Forward propagation
+Backpropagation
+Loss functions
+Optimizers
+Epochs
+Batch size
+Learning rate
+Neural network layers
+
+Important neural network architectures include:
+
+Artificial Neural Networks
+Convolutional Neural Networks
+Recurrent Neural Networks
+LSTM
+Transformers
+
+
+TENSORFLOW AND PYTORCH
+
+TensorFlow and PyTorch are popular deep learning frameworks.
+
+TensorFlow can be used with Keras to build and train neural networks.
+
+PyTorch provides flexible tools for building deep learning models.
+
+
+SQL
+
+SQL is important for AI and data-related jobs because data is commonly stored in relational databases.
+
+Important SQL topics include:
+
+SELECT
+WHERE
+ORDER BY
+GROUP BY
+HAVING
+JOIN
+Subqueries
+Aggregate functions
+Constraints
+INSERT
+UPDATE
+DELETE
+CREATE TABLE
+ALTER TABLE
+Database normalization
+
+Important aggregate functions include:
+
+COUNT
+SUM
+AVG
+MIN
+MAX
+
+
+GIT AND GITHUB
+
+Git is a version control system used to track changes in source code.
+
+GitHub is a platform for hosting and collaborating on Git repositories.
+
+Important Git commands include:
+
+git init
+git add
+git commit
+git status
+git log
+git branch
+git checkout
+git pull
+git push
+git clone
+
+
+REST API
+
+A REST API allows applications to communicate with each other over HTTP.
+
+Common HTTP methods include:
+
+GET - retrieve data
+POST - create data
+PUT - update data
+PATCH - partially update data
+DELETE - delete data
+
+Common HTTP status codes include:
+
+200 - successful request
+201 - resource created
+400 - bad request
+401 - unauthorized
+403 - forbidden
+404 - not found
+500 - server error
+
+
+GENERATIVE AI
+
+Generative AI systems can generate text, images, audio, code, and other content.
+
+Large Language Models are AI models trained on large amounts of text.
+
+Important LLM concepts include:
+
+Tokens
+Context windows
+Prompts
+Temperature
+Inference
+Embeddings
+Fine-tuning
+
+
+LARGE LANGUAGE MODELS
+
+A Large Language Model processes language and generates responses based on patterns learned during training.
+
+LLM applications include:
+
+Chatbots
+Question answering
+Summarization
+Code generation
+Document analysis
+Career assistants
+
+
+PROMPT ENGINEERING
+
+Prompt engineering means designing effective instructions for an AI model.
+
+A good prompt can contain:
+
+Role
+Task
+Context
+Constraints
+Expected output format
+
+
+EMBEDDINGS
+
+Embeddings convert text into numerical vectors.
+
+Texts with similar meanings can have similar vector representations.
+
+Embeddings are useful for:
+
+Semantic search
+Recommendation systems
+Document retrieval
+RAG applications
+Similarity matching
+
+
+SENTENCE TRANSFORMERS
+
+Sentence Transformers are models used to convert sentences and paragraphs into numerical embeddings.
+
+CareerPilot AI uses the all-MiniLM-L6-v2 Sentence Transformer model.
+
+The model converts text into vectors that represent the meaning of the text.
+
+Example:
+
+"What is machine learning?"
+
+and
+
+"Explain machine learning to me."
+
+These sentences use different words but have similar meanings.
+
+Their embeddings can therefore be close to each other.
+
+
+FAISS
+
+FAISS is a library for efficient similarity search of vectors.
+
+FAISS can store embeddings and search for the most similar vectors.
+
+CareerPilot AI uses FAISS as the vector search component of the RAG system.
+
+
+RAG
+
+RAG stands for Retrieval-Augmented Generation.
+
+A RAG system retrieves relevant information from a knowledge base before sending the information to an LLM.
+
+Basic RAG workflow:
+
+User Question
+↓
+Convert question into embedding
+↓
+Search vector database
+↓
+Retrieve relevant documents
+↓
+Send retrieved information to LLM
+↓
+Generate answer
+
+RAG can provide an LLM with relevant information from an external knowledge source.
+
+Important RAG components include:
+
+Documents
+Text chunks
+Embeddings
+Vector database
+Similarity search
+Retrieved context
+Language model
+
+
+CAREER PROJECTS
+
+Good beginner AI and machine learning projects include:
+
+Resume and Job Description Analyzer
+Student Performance Prediction
+House Price Prediction
+Customer Churn Prediction
+Spam Detection
+Image Classification
+Object Detection
+Sentiment Analysis
+Chatbot
+Recommendation System
+
+
+AI AND ML INTERVIEW PREPARATION
+
+Important interview topics include:
+
+Python
+SQL
+Machine learning algorithms
+Data preprocessing
+Model evaluation
+Overfitting
+Underfitting
+Feature engineering
+Deep learning
+Neural networks
+NLP
+Computer vision
+Generative AI
+LLMs
+Embeddings
+RAG
+
+
+COMMON AI ML INTERVIEW QUESTIONS
+
+1. What is machine learning?
+
+2. What is supervised learning?
+
+3. What is the difference between classification and regression?
+
+4. What is overfitting?
+
+5. What is underfitting?
+
+6. What is a confusion matrix?
+
+7. What is precision and recall?
+
+8. What is deep learning?
+
+9. What is a neural network?
+
+10. What is an embedding?
+
+11. What is RAG?
+
+12. What is an LLM?
+
+13. What is the difference between SQL WHERE and HAVING?
+
+14. What is a JOIN in SQL?
+
+15. What is the difference between a Python list and tuple?
+
+
+AI ML LEARNING ROADMAP
+
+Stage 1:
+Learn Python fundamentals.
+
+Stage 2:
+Learn NumPy, Pandas, Matplotlib, and basic statistics.
+
+Stage 3:
+Learn machine learning algorithms and model evaluation.
+
+Stage 4:
+Build machine learning projects.
+
+Stage 5:
+Learn deep learning with TensorFlow or PyTorch.
+
+Stage 6:
+Learn NLP and computer vision.
+
+Stage 7:
+Learn Generative AI, LLMs, embeddings, and prompt engineering.
+
+Stage 8:
+Learn RAG and vector databases such as FAISS.
+
+Stage 9:
+Learn APIs, deployment, Git, GitHub, and cloud basics.
+
+Stage 10:
+Build real-world AI projects and prepare for AI ML interviews.
+
+
+AI ML ENGINEER SKILLS
+
+Important skills for an entry-level AI ML Engineer include:
+
+Python
+SQL
+Statistics
+Data preprocessing
+Machine learning
+Deep learning
+NLP
+Computer vision
+TensorFlow
+PyTorch
+NumPy
+Pandas
+Git
+GitHub
+REST APIs
+Generative AI
+Large Language Models
+Prompt engineering
+Embeddings
+RAG
+FAISS
+Vector databases
+Model deployment
+Problem solving
+Communication
